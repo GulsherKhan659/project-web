@@ -1,0 +1,22 @@
+# Robots.txt for https://primestacksolutions.org
+# Created on 2025-08-16
+# Author: Primestack Solutions
+
+User-agent: *
+Allow: /
+
+# Block sensitive folders (if they exist)
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://primestacksolutions.org/sitemap.xml
+
+# Contact Info (optional - helps SEO + trust)
+# Company: Primestack Solutions
+# Address: 1001 S Main St, Kalispell, MT 59901, USA
+# Phone: +1 406-289-6776
+# Email: hello@primestacksolutions.org
